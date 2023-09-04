@@ -1,0 +1,33 @@
+{
+    "name": "loranger/laravel-taxi",
+    "description": "A tribute to taxi drivers from all around the world",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "loranger"
+        }
+    ],
+    "keywords": [
+        "laravel"
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/console": "^9.0 || ^10.0",
+        "illuminate/support": "^9.0 || ^10.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "loranger\\Taxi\\": "src/"
+        }
+    },
+    "autoload-dev": {},
+    "config": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "loranger\\Taxi\\Providers\\TaxiServiceProvider"
+            ]
+        }
+    }
+}
